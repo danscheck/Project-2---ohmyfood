@@ -1,0 +1,41 @@
+footer {
+    background-color: black;
+}
+
+footer img {
+    height: auto;
+    width: 130px;
+    padding: 15px 18px;
+    margin-top: 20px;
+    margin-left: 7px;
+}
+
+.unstyled-list {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+li {
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.purp-btn {
+    padding: 25px 27px;
+    border-radius: 35px;
+    border: none;
+    background-image: linear-gradient(55deg,#FF79DA, #9356DC );
+    font-family: "Roboto" , sans-serif;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    color: #fff;
+}
+
+.footer-icon {
+    padding: 10px;
+}
