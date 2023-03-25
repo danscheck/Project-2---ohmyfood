@@ -76,3 +76,14 @@ header img {
 .menu-card:last-child{
     margin:0;
 }
+
+.order-button-container{
+display: flex;
+justify-content: center;
+}
+
+.order-button{
+    margin-bottom: 100px !important;
+    margin-top: 30px;
+   width: 270px;
+}
