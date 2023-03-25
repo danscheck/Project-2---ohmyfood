@@ -228,6 +228,17 @@ li {
 .footer-logo {
     color: #fff;
 }
+
+.footer-icon {
+    padding: 10px;
+}
+
+.heart-icon {
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
 /*@media (min-width: 768px) and (max-width: 992px) {
     
   }*/
@@ -282,4 +293,7 @@ li {
     #restaurant-list {
         padding-top: 10px;
     }
+
+   
+    
   }
