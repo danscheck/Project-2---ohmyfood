@@ -179,11 +179,24 @@ main p {
     transition: 0.3s;
     background-color: white;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .card:hover, .button:hover, .purp-btn:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     cursor: pointer;
+}
+
+.new {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(99, 203, 151);
+    position: absolute;
+    right: 15px;
+    top: 15px;
+
 }
 
 .card img {
@@ -194,13 +207,24 @@ main p {
     border-top-left-radius: 10px;
 }
 
-.card-text {
+.card-content {
     text-align: left;
-    padding-right: 100px;
     padding-bottom: 20px;
     height: 80px;
     margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.heart-icon {
+    font-size: 25px;
+}
+
+.heart-icon:hover {
+    color: #9356DC;
+}
+
 
 .card-text h2 {
     font-size: 20px;
