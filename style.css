@@ -93,8 +93,8 @@ main p {
 }
 
 .sub-text {
-    text-align: center;
-    font-family: "Roboto", sans-serif;
+    text-align: left;
+    font-weight: 700 !important;
 }
 
 .button-container {
@@ -119,7 +119,27 @@ main p {
     padding: 15px;
     margin: 15px;
     border-radius: 20px;
+    display: flex;
+    position: relative;
 }
+
+.button-icon {
+    margin-right: 40px;
+}
+
+.number {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background: #9356DC;
+    position: absolute;
+    left: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
 
 .text-box {
     align-items: center;
@@ -138,6 +158,12 @@ main p {
 .restaurant-container {
     display: flex;
     flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(241, 238, 238);
+    padding-top: 50px;
+
+
 }
 
 .card {
@@ -145,14 +171,14 @@ main p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 350px;
+    width: 100%;
     height: auto;
     border: 1px solid #ccc;
     border-radius: 10px;
-    margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     background-color: white;
+    margin-bottom: 20px;
 }
 
 .card:hover, .button:hover, .purp-btn:hover {
@@ -271,12 +297,9 @@ li {
     .restaurant-container {
         flex-direction: column;
         display: flex;
-        padding-top: 10px;
     }
 
     .card {
-        margin: auto;
-        margin-bottom: 20px;
         padding-bottom: 0px;
         height: 290px;
 
