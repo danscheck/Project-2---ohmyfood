@@ -1,0 +1,285 @@
+header {
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+header img {
+    display: flex;
+    width: 300px;
+    height: auto;
+    justify-content: center;
+    margin: auto;
+
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+}
+
+h2 ,p {
+    font-family: "Roboto", sans-serif;
+}
+
+    
+
+.location-text {
+    text-align: center;
+    color: rgb(198, 51, 51);
+}
+
+#location-pin {
+    justify-content: space-around;
+    margin-right: 10px;
+}
+
+#location-container {
+    padding: 10px;
+}
+
+.nav-bar {
+text-align: center;
+padding: 1px;
+background-color: rgb(226, 221, 221);
+font-size: 12px;
+}
+
+main {
+    background-color: rgb(241, 238, 238);
+    
+}
+ .explore {
+    height: 250px;
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 60px;
+    
+ }
+
+main h1 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 10px;
+}
+
+main p {
+    font-family: "Raleway" , sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+
+.purp-btn {
+    padding: 25px 27px;
+    border-radius: 35px;
+    border: none;
+    background-image: linear-gradient(55deg,#FF79DA, #9356DC );
+    font-family: "Roboto" , sans-serif;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.sub-text {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.spacer {
+    height: 10px;
+    margin: 10px;
+}
+
+.button {
+    background-color: gainsboro;
+    border: none;
+    border-radius: 5px;
+    height: auto;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.text-box {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.text-box span {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.restaurant-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: white;
+}
+
+.card:hover, .button:hover, .purp-btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card-text {
+    text-align: left;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    height: 80px;
+    margin: 5px;
+}
+
+.card-text h2 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.card-text p {
+    font-size: 16px;
+    color: #666;
+    text-align: left;
+} 
+
+.options {
+    background-color: white;
+    padding: 30px;
+}
+
+.options h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.restaurant-list {
+    background-color: rgb(241, 238, 238);
+    
+}
+
+footer {
+    background-color: black;
+}
+
+footer img {
+    height: auto;
+    width: 130px;
+    padding: 15px 18px;
+    margin-top: 20px;
+    margin-left: 7px;
+}
+
+.unstyled-list {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+li {
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-logo {
+    color: #fff;
+}
+/*@media (min-width: 768px) and (max-width: 992px) {
+    
+  }*/
+  
+  @media (max-width: 768px) {
+     #options {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+      
+    }
+    .button-container {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    h2 {
+        text-align: center;
+
+    }
+    .button {
+        height: auto;
+        width: 100%;
+        padding: 30px 60px;
+        border-radius: 20px;
+    }
+
+    .restaurant-container {
+        flex-direction: column;
+        display: flex;
+        padding-top: 10px;
+    }
+
+    .card {
+        margin: auto;
+        margin-bottom: 20px;
+        padding-bottom: 0px;
+        height: 290px;
+
+    }
+
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    #restaurant-list {
+        padding-top: 10px;
+    }
+  }
