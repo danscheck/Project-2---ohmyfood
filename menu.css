@@ -159,6 +159,8 @@ header img {
     justify-content: space-between;
     overflow: hidden;
     cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
   }
   .card:hover .box {
     width: 90px;
@@ -253,6 +255,17 @@ header img {
     animation: fadeIn 3s;
     -webkit-animation: fadeIn 3s;
     -moz-animation: fadeIn 3S;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+.fade-4 {
+    animation: fadeIn 4s;
+    -webkit-animation: fadeIn 4s;
+    -moz-animation: fadeIn 4S;
 }
 
 @keyframes fadeIn {
