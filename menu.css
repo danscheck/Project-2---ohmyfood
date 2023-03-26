@@ -60,13 +60,17 @@ header img {
     font-size: 30px;
 }
 
-.menu-card h3 , p {
+.card h3 , p {
     font-weight: 500;
 }
 
-.category-container h2, .menu-item-container p {
+.category-container h2, .card-text p {
     font-family: 'Roboto',sans-serif ;
     font-weight: 100;
+}
+
+.card .price-text {
+    font-weight: 500;
 }
 
 .menu-section {
@@ -142,33 +146,56 @@ header img {
 }
 
 .menu-card:hover .box {
-    width: 70px;
+    width: 90px;
   }
 
-  .menu-card:hover .tick {
+  .card {
+    background: white;
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .card:hover .box {
+    width: 90px;
+  }
+  .card:hover .tick {
     -webkit-animation: 1s rotate;
             animation: 1s rotate;
   }
-
-  .menu-card .box {
+  .card .card-text {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+  }
+  .card h3 {
+    margin-bottom: 10px;
+  }
+  .card .box {
     background: rgb(141, 217, 213);
     width: 0%;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    position: relative;
     transition: 0.3s ease-in-out;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
   }
-
-  .menu-card .box .tick {
+  .card .box .tick {
     font-size: 25px;
     color: white;
   }
-
-
+  
   @-webkit-keyframes rotate {
     0% {
       transform: rotate(0deg);
@@ -187,6 +214,7 @@ header img {
     }
 }
 
+
 .order-button-container {
     display: flex;
     justify-content: center;
@@ -199,3 +227,13 @@ header img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.fade-1 {
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1S;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
