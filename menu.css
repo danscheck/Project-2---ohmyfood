@@ -31,6 +31,16 @@ header img {
 .back-arrow {
     display: flex;
     align-items: center;
+    font-size: 30px;
+    justify-content: space-between;
+    color: black;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    flex-direction: row;
 }
 
 .image-section {
@@ -48,6 +58,10 @@ header img {
 .menu-header h1 {
     font-family: 'Shrikhand', cursive;
     font-size: 30px;
+}
+
+.menu-card h3 , p {
+    font-weight: 500;
 }
 
 .category-container h2, .menu-item-container p {
@@ -96,14 +110,14 @@ header img {
     padding-left: 5%;
     padding-right: 5%;
     margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.menu-card .order-button {
+.menu-card:hover,
+.order-button:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
-
-
 
 .menu-card:last-child {
     margin: 0;
@@ -118,4 +132,6 @@ header img {
     margin-bottom: 100px !important;
     margin-top: 30px;
     width: 270px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
