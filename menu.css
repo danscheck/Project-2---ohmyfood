@@ -84,6 +84,22 @@ header img {
     margin-bottom: 40px;
 }
 
+.category-container h2 {
+    padding-bottom: 3px;  
+    position: relative;
+}
+
+.category-container h2::before {
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 12%;
+    height: 3px;
+    background: #99E2D0;
+
+}
+
 .category-container:last-child {
     margin: 0;
 }
@@ -111,9 +127,11 @@ header img {
     padding-right: 5%;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    cursor: pointer;
 }
 
-.menu-card:hover,
+
 .order-button:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     cursor: pointer;
@@ -121,6 +139,52 @@ header img {
 
 .menu-card:last-child {
     margin: 0;
+}
+
+.menu-card:hover .box {
+    width: 70px;
+  }
+
+  .menu-card:hover .tick {
+    -webkit-animation: 1s rotate;
+            animation: 1s rotate;
+  }
+
+  .menu-card .box {
+    background: rgb(141, 217, 213);
+    width: 0%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+  }
+
+  .menu-card .box .tick {
+    font-size: 25px;
+    color: white;
+  }
+
+
+  @-webkit-keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
 }
 
 .order-button-container {

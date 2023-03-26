@@ -33,7 +33,6 @@ p {
 }
 
 
-
 .location-text {
     text-align: center;
     color: rgb(198, 51, 51);
@@ -42,9 +41,10 @@ p {
 .location-pin {
     justify-content: space-around;
     margin-right: 10px;
+    color: rgb(38, 38, 36);
 }
 
-#location-container {
+.location-container {
     padding: 10px;
 }
 
@@ -53,6 +53,10 @@ p {
     padding: 1px;
     background-color: rgb(226, 221, 221);
     font-size: 12px;
+}
+
+.nav-bar h2 {
+    color: rgb(38, 38, 36);
 }
 
 main {
@@ -102,7 +106,7 @@ main p {
 }
 
 .button {
-    background-color: gainsboro;
+    background-color: rgb(244, 241, 241);
     border: none;
     border-radius: 5px;
     height: auto;
@@ -118,6 +122,7 @@ main p {
 
 .button-icon {
     margin-right: 40px;
+    color: #665;
 }
 
 .number {
@@ -180,17 +185,22 @@ main p {
 .purp-btn:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     cursor: pointer;
+
 }
 
 .new {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(99, 203, 151);
+    background-color: #99E2D0;
     position: absolute;
     right: 15px;
     top: 15px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(73, 144, 128);
+
 
 }
 
@@ -210,6 +220,16 @@ main p {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.card-content p {
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.card-content h2 {
+    font-weight: 500;
+    font-size: 22px;
 }
 
 .heart-icon {
@@ -284,7 +304,7 @@ main p {
     .button {
         height: auto;
         width: 100%;
-        padding: 30px 60px;
+        padding: 25px 50px;
         border-radius: 20px;
     }
 
