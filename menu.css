@@ -28,6 +28,11 @@ header img {
 
 }
 
+.back-arrow {
+    display: flex;
+    align-items: center;
+}
+
 .image-section {
     height: 300px;
     width: 100%;
@@ -38,6 +43,16 @@ header img {
     width: 100%;
     height: 500px;
     object-fit: cover;
+}
+
+.menu-header h1 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 30px;
+}
+
+.category-container h2, .menu-item-container p {
+    font-family: 'Roboto',sans-serif ;
+    font-weight: 100;
 }
 
 .menu-section {
