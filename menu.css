@@ -13,35 +13,33 @@ h3, p {
 }
 
 
-header {
-    margin: auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
+.nav-logo {
+    color: black;
+    font-family: 'Shrikhand' , cursive;
+    font-size: 50px;
+    display: inline-block;
 }
 
-header img {
-    display: flex;
-    width: 300px;
-    height: auto;
-    justify-content: center;
-    margin: auto;
 
+.header-container {
+    padding-bottom: 20px;
+}
+
+.nav {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    
 }
 
 .back-arrow {
-    display: flex;
-    align-items: center;
     font-size: 30px;
-    justify-content: space-between;
     color: black;
+    left: 0;
+    position: absolute;
 }
 
-.nav-link {
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-    flex-direction: row;
-}
+
 
 .image-section {
     height: 300px;
