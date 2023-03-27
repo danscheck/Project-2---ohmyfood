@@ -334,3 +334,22 @@ main p {
 
 
 }
+
+@media (min-width: 992px) {
+   
+   
+   
+   
+   
+   
+    .card {
+        display: flex;
+        margin-right: 15px;
+    }
+
+    .restaurant-container {
+        margin-bottom: 20px;
+    }
+
+    
+}
