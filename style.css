@@ -14,7 +14,7 @@ header img {
 
 }
 
-.loader {
+/*.loader {
     position: fixed;
     top: 0;
     left: 0;
@@ -24,6 +24,12 @@ header img {
     align-items: center;
     justify-content: center;
     background: #333333;
+    transition: opacity 0.75s, visibility 0.75;
+}
+
+.loader--hidden {
+    opacity: 0;
+    visibility: hidden;
 }
 
 .loader::after {
@@ -38,9 +44,9 @@ header img {
 
 @keyframes loading {
     from { transform: rotate(0turn) }
-    from { transform: rotate(1turn) }
+    to { transform: rotate(1turn) }
 
-}
+}*/
 
 body {
     margin: 0;
@@ -266,7 +272,7 @@ main p {
 }
 
 .heart-icon:hover {
-    color: #9356DC;
+    fill: #9356DC;
 }
 
 
@@ -366,18 +372,13 @@ main p {
 
 @media (min-width: 992px) {
    
-   
-   
-   
-   
-   
     .card {
         display: flex;
         margin-right: 15px;
     }
 
     .restaurant-container {
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
 
     
