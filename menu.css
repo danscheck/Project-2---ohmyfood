@@ -17,12 +17,13 @@ h3, p {
     color: black;
     font-family: 'Shrikhand' , cursive;
     font-size: 50px;
-    display: inline-block;
 }
 
 
 .header-container {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    position: relative;
+    margin: auto;
 }
 
 .nav {
@@ -37,9 +38,9 @@ h3, p {
     color: black;
     left: 0;
     position: absolute;
+    padding-top: 22px;
+    padding-left: 15px;
 }
-
-
 
 .image-section {
     height: 300px;
