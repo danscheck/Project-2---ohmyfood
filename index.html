@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" media="screen and (max-width: 100px)" href="small_resolution.css">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,96 +44,99 @@
 
     <section class="options">
         <h2>How it Works</h2>
-        <div class="button-container">
+        <span class="button-container">
             <button class="button">
-                <div class="number">1</div>
-                <div class="text-box">
+                <span class="number">1</span>
+                <span class="text-box">
                     <span><i class="fa-solid fa-mobile-screen button-icon"></i>Choose a restaurant</span>
-                </div>
+                </span>
             </button>
             <button class="button">
-                <div class="number">2</div>
+                <span class="number">2</span>
 
-                <div class="text-box">
+                <span class="text-box">
                     <span><i class="fa-solid fa-list button-icon"></i>Create your menu</span>
-                </div>
+                </span>
             </button>
             <button class="button">
-                <div class="number">3</div>
+                <span class="number">3</span>
 
-                <div class="text-box">
+                <span class="text-box">
                     <span><i class="fa-sharp fa-solid fa-store button-icon"></i>Go enjoy it at the restaurant</span>
-                </div>
+                </span>
             </button>
-        </div>
+        </span>
     </section>
 
 
     <section class="restaurant-container">
         <h2 class="sub-text">Restaurants</h2>
-        <div class="card">
-            <div class="new">
-                New
-            </div>
-            <a href="./the-full-pallete.html">
-                <img src="images/restaurants/the-full-pallete.jpg" class="card-img" alt="Image 1"></a>
-            <div class="card-content">
-                <div>
-                    <h2 class="card-title">The Full Pallete</h2>
-                    <p class="card-location">New York</p>
+        <div class="rest-card-container">
+            <div class="card">
+                <div class="new">
+                    New
                 </div>
-                <div class="icon">
-                    <i class="fa-regular fa-heart heart-icon"></i>
+                <a href="./the-full-pallete.html">
+                    <img src="images/restaurants/the-full-pallete.jpg" class="card-img" alt="Image 1">
+                </a>
+                <div class="card-content">
+                    <div class="card-content-left">
+                        <h2 class="card-title">The Full Pallete</h2>
+                        <p class="card-location">New York</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-heart heart-icon"></i>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="new">
+                    New
+                </div>
+                <a href="./the-enchanted-plate.html">
+                    <img src="./images/restaurants/the-enchanted-plate.jpg" class="card-img" alt="Image 1"></a>
+                <div class="card-content">
+                    <div>
+                        <h2 class="card-title">The Enchanted Plate</h2>
+                        <p class="card-location">New York</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-heart heart-icon"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="./bastille.html">
+                    <img src="./images/restaurants/bastille.jpg" class="card-img" alt="Image 1"></a>
+                <div class="card-content">
+                    <div>
+                        <h2 class="card-title">Bastille</h2>
+                        <p class="card-location">New York</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-heart heart-icon"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="./le-gourmand.html">
+                    <img src="./images/restaurants/le-gourmand.jpg" class="card-img" alt="Image 1"></a>
+                <div class="card-content">
+                    <div>
+                        <h2 class="card-title">Le Gourmand</h2>
+                        <p class="card-location">New York</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-heart heart-icon"></i>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="card">
-            <div class="new">
-                New
-            </div>
-            <a href="./the-enchanted-plate.html">
-                <img src="./images/restaurants/the-enchanted-plate.jpg" class="card-img" alt="Image 1"></a>
-            <div class="card-content">
-                <div>
-                    <h2 class="card-title">The Enchanted Plate</h2>
-                    <p class="card-location">New York</p>
-                </div>
-                <div class="icon">
-                    <i class="fa-regular fa-heart heart-icon"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="card">
-            <a href="./bastille.html">
-                <div>
-                <img src="./images/restaurants/bastille.jpg" class="card-img" alt="Image 1"></a>
-                </div>
-            <div class="card-content">
-                <div>
-                    <h2 class="card-title">Bastille</h2>
-                    <p class="card-location">New York</p>
-                </div>
-                <div class="icon">
-                    <i class="fa-regular fa-heart heart-icon"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="card">
-            <a href="./images/restaurants/le-gourmand.jpg">
-                <img src="./images/restaurants/le-gourmand.jpg" class="card-img" alt="Image 1"></a>
-            <div class="card-content">
-                <div>
-                    <h2 class="card-title">Le Gourmand</h2>
-                    <p class="card-location">New York</p>
-                </div>
-                <div class="icon">
-                    <i class="fa-regular fa-heart heart-icon"></i>
-                </div>
-            </div>
-        </div>
     </section>
 
     <footer>
