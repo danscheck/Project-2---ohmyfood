@@ -269,10 +269,15 @@ main p {
 
 .heart-icon {
     font-size: 25px;
+    color: #fff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    transition: all s;
 }
 
 .heart-icon:hover {
-    fill: #9356DC;
+    color: #9356DC;
+    -webkit-text-stroke-color: #9356DC ;
 }
 
 
