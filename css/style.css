@@ -315,6 +315,8 @@ main p {
 
 .heart-icon:hover {
   color: #9356dc;
+  transition: 3s ease-out;
+
 }
 
 .card-text h2 {

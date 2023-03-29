@@ -73,9 +73,6 @@ p {
   font-weight: 100;
 }
 
-.card .price-text {
-  font-weight: 500;
-}
 
 .card-left {
   overflow: hidden;
@@ -103,12 +100,6 @@ p {
   font-family: "Roboto , sans-serif";
   font-weight: 500;
 }
-
-/*.card-left p {
-
-  font-weight: 500;
-}*/
-
 
 .menu-section {
   width: 100%;
