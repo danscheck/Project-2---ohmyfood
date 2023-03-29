@@ -259,6 +259,12 @@ main p {
   transform: scale(0.9);
 }
 
+.button:hover .button-icon {
+  color: #9356dc;
+  animation: 0.2 ease-in;
+}
+
+
 .new {
   padding-left: 30px;
   padding-right: 30px;
@@ -284,7 +290,7 @@ main p {
 
 .card-content {
   text-align: left;
-  padding: 20px;
+  padding: 5px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -316,7 +322,7 @@ main p {
 .heart-icon:hover {
   color: #9356dc;
   transition: 3s ease-out;
-
+  -webkit-text-stroke-color: #9356dc;
 }
 
 .card-text h2 {
@@ -436,7 +442,7 @@ main p {
   }
 }
 
-@media  (min-width: 769px) and (max-width: 1440px) {
+@media  (min-width: 769px) and (max-width: 2560px) {
   .card-title , .card-location {
     font-size: 5px;
 
@@ -448,6 +454,34 @@ main p {
   }
 
   .button-icon {
-    padding-left: 7px;
+    padding-left: 2px;
   }
+
+  .button .text-box span {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-box {
+    padding-right: 5px;
+  }
+  
+  .card-content h2 {
+    font-size: 16px;
+  }
+
+  .card-content p {
+    font-size: 14px;
+  }
+
+  .button {
+    height: 75px;
+
+}
+
+.button-icon {
+  font-size: 20px;
+}
+
 }

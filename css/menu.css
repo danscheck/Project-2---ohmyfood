@@ -302,3 +302,12 @@ p {
     width: 70%;
   }
 }
+
+@media (min-width: 769px) and (max-width: 1560px) {
+  .page-width {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1240px;
+    margin: auto;
+  }
+}
