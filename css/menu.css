@@ -68,6 +68,11 @@ p {
   font-weight: 100;
 }
 
+.card-left .menu-item-extra {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
 .card .price-text {
   font-weight: 500;
 }
@@ -93,6 +98,17 @@ p {
   overflow: hidden;
   white-space: nowrap;
 }
+
+.menu-item-extra {
+  font-family: "Roboto , sans-serif";
+  font-weight: 500;
+}
+
+/*.card-left p {
+
+  font-weight: 500;
+}*/
+
 
 .menu-section {
   width: 100%;

@@ -224,6 +224,7 @@ main p {
   padding-right: 5%;
   background-color: rgb(241, 238, 238);
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .card {
@@ -430,5 +431,21 @@ main p {
 
   .button {
     width: 250px;
+  }
+}
+
+@media  (min-width: 769px) and (max-width: 1440px) {
+  .card-title , .card-location {
+    font-size: 5px;
+
+  }
+
+  .button-container {
+    width: 70%;
+    margin: auto;
+  }
+
+  .button-icon {
+    padding-left: 7px;
   }
 }
