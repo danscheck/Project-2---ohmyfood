@@ -290,6 +290,8 @@ p {
   }
 }
 
+
+
 @media (min-width: 992px) {
   .price-text {
     margin-inline-start: auto;
@@ -309,5 +311,15 @@ p {
     padding-right: 20px;
     max-width: 1240px;
     margin: auto;
+  }
+
+  .contain {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
+  }
+
+  .shadow {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
   }
 }

@@ -25,7 +25,7 @@ header img {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: fadeOut 1s ease-in-out forwards 3s;
+  animation: fadeOut 2s ease-in-out forwards 3s;
   pointer-events: none;
 }
 
@@ -179,14 +179,14 @@ main p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   padding: 15px;
-  margin: 15px;
+  /*margin: 15px;*/
   border-radius: 20px;
   display: flex;
   position: relative;
 }
 
 .button-icon {
-  margin-right: 40px;
+  margin-right: 25px;
   color: #665;
 }
 
@@ -201,6 +201,7 @@ main p {
   align-items: center;
   justify-content: center;
   color: white;
+  top: 11px;
 }
 
 .text-box {
@@ -218,10 +219,10 @@ main p {
 }
 
 .restaurant-container {
-  display: flex;
+  /*display: flex;*/
   flex-direction: row;
-  padding-left: 5%;
-  padding-right: 5%;
+  /*padding-left: 5%;
+  padding-right: 5%*/
   background-color: rgb(241, 238, 238);
   padding-top: 50px;
   padding-bottom: 20px;
@@ -238,7 +239,7 @@ main p {
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: white;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   position: relative;
   transition: all 200ms;
 }
@@ -277,6 +278,12 @@ main p {
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
   color: rgb(73, 144, 128);
+}
+
+.container {
+  max-width: 950px;
+  margin: auto;
+  padding: 0 20px;
 }
 
 .card img {
@@ -339,7 +346,7 @@ main p {
 
 .options {
   background-color: white;
-  padding: 30px;
+  padding: 30px 0;
 }
 
 .options h2 {
@@ -376,6 +383,7 @@ main p {
     justify-content: center;
     flex-direction: column;
     margin: auto;
+    gap: 20px;
   }
 
   h2 {
@@ -385,13 +393,13 @@ main p {
   .button {
     height: auto;
     width: 100%;
-    padding: 25px 50px;
+    padding: 19px 21px;
     border-radius: 20px;
   }
 
   .restaurant-container {
     flex-direction: column;
-    display: flex;
+    /*display: flex;*/
   }
 
   .card {
@@ -414,11 +422,13 @@ main p {
 
 @media (min-width: 769px) {
   .card {
-    margin-right: 20px;
+    /*margin-right: 20px;*/
     width: 100%;
     background: white;
     height: fit-content;
     border-radius: 10px;
+    height: 100%;
+    flex-grow: 1;
   }
 
   .restaurant-container {
@@ -435,6 +445,7 @@ main p {
   }
   .rest-card-container {
     display: flex;
+    gap: 20px;
   }
 
   .button {
@@ -449,8 +460,8 @@ main p {
   }
 
   .button-container {
-    width: 70%;
-    margin: auto;
+    /*width: 70%;
+    margin: auto;*/
   }
 
   .button-icon {
