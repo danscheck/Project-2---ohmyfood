@@ -348,15 +348,19 @@ main p {
   padding: 10px;
 }
 
+
+
+
 /*@media (min-width: 768px) and (max-width: 992px) {
     
   }*/
 
 @media (max-width: 768px) {
 
-    body{
+    body {
         background: white;
     }
+
   #options {
     display: flex;
     justify-content: center;
@@ -384,7 +388,6 @@ main p {
 
   .restaurant-container {
     flex-direction: column;
-    /*display: flex;*/
   }
 
   .card {
@@ -403,11 +406,14 @@ main p {
   .restaurant-list {
     padding-top: 10px;
   }
+
+  
 }
 
-@media (min-width: 769px) {
+/*TABLET VERSION*/
+
+@media (min-width: 768px) {
   .card {
-    /*margin-right: 20px;*/
     width: 100%;
     background: white;
     height: fit-content;
@@ -436,9 +442,24 @@ main p {
   .button {
     width: 250px;
   }
+
+  .card-title , .card-location {
+    font-size: 5px;
+
+  }
+
+  .card-content h2 {
+    font-size: 16px;
+  }
+
+  .card-content p {
+    font-size: 14px;
+  }
 }
 
-@media  (min-width: 769px) and (max-width: 2560px) {
+/* LAPTOP VERSION */
+
+@media  (min-width: 992px) and (max-width: 2560px) {
   .card-title , .card-location {
     font-size: 5px;
 
