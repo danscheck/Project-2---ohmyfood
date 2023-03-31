@@ -61,21 +61,10 @@ header img {
   }
 }
 
-.container, .menu-item, nav, header, footer, section, main {
+/*.container, .menu-item, nav, header, footer, section, main {
   animation: transitionIn 2s ease-in-out forwards ;
-}
+}*/
 
-
-@keyframes transitionIn {
-  from {
-    opacity: 0;
-    transform: rotateX(-10deg);
-  }
-  to {
-    opacity: 1;
-    transform: rotateX(0);
-  }
-}
 
 *{
     box-sizing: border-box;
@@ -163,6 +152,7 @@ main p {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  gap: 20px;
 }
 
 .spacer {
@@ -179,7 +169,6 @@ main p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   padding: 15px;
-  /*margin: 15px;*/
   border-radius: 20px;
   display: flex;
   position: relative;
@@ -219,10 +208,7 @@ main p {
 }
 
 .restaurant-container {
-  /*display: flex;*/
   flex-direction: row;
-  /*padding-left: 5%;
-  padding-right: 5%*/
   background-color: rgb(241, 238, 238);
   padding-top: 50px;
   padding-bottom: 20px;
@@ -239,7 +225,6 @@ main p {
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: white;
-  /*margin-bottom: 20px;*/
   position: relative;
   transition: all 200ms;
 }
@@ -459,10 +444,6 @@ main p {
 
   }
 
-  .button-container {
-    /*width: 70%;
-    margin: auto;*/
-  }
 
   .button-icon {
     padding-left: 2px;

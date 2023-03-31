@@ -37,7 +37,7 @@ li {
     padding: 25px 27px;
     border-radius: 35px;
     border: none;
-    background-image: linear-gradient(55deg,#FF79DA, #9356DC );
+    background: linear-gradient( #FF79DA, #9356DC);
     font-family: "Roboto" , sans-serif;
     color: #fff;
     font-size: 18px;
