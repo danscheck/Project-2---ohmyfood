@@ -311,10 +311,13 @@ main p {
   -webkit-text-stroke-color: black;
 }
 
-.heart-icon:hover {
-  color: #9356dc;
+.heart-icon:hover .heart-full {
   transition: 3s ease-out;
   -webkit-text-stroke-color: #9356dc;
+  background: linear-gradient( #FF79DA, #9356DC);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
 .card-text h2 {
@@ -497,4 +500,7 @@ main p {
   font-size: 20px;
 }
 
+.number {
+  bottom: 13px;
+}
 }
