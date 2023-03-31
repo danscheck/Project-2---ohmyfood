@@ -305,19 +305,18 @@ main p {
 }
 
 .heart-icon {
-  font-size: 25px;
-  color: white;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  transition: all 0.3s;
+  transition-timing-function: ease-in-out;
+font-size: 25px;
 }
 
-.heart-icon:hover .heart-full {
-  transition: 3s ease-out;
-  -webkit-text-stroke-color: #9356dc;
-  background: linear-gradient( #FF79DA, #9356DC);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 
+.heart-icon:hover {
+  color: #9356dc;
+  -webkit-text-stroke-color: #9356dc;
 }
 
 .card-text h2 {
