@@ -153,7 +153,11 @@ main p {
   justify-content: space-between;
   width: 100%;
   gap: 20px;
+  flex-direction: column;
+  margin: auto;
 }
+
+
 
 .spacer {
   height: 10px;
@@ -165,13 +169,13 @@ main p {
   border: none;
   border-radius: 5px;
   height: auto;
-  width: 40%;
+  width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  padding: 15px;
-  border-radius: 20px;
   display: flex;
   position: relative;
+  padding: 19px 21px;
+  border-radius: 20px;
 }
 
 .button-icon {
@@ -227,6 +231,8 @@ main p {
   background-color: white;
   position: relative;
   transition: all 200ms;
+  padding-bottom: 0px;
+  margin-bottom: 30px;
 }
 
 .card-content {
@@ -361,43 +367,16 @@ main p {
 
 @media (max-width: 768px) {
 
-    body {
-        background: white;
-    }
+   
 
-  #options {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-  }
+ 
 
-  .button-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: auto;
-    gap: 20px;
-  }
+  
 
-  h2 {
-    text-align: center;
-  }
-
-  .button {
-    height: auto;
-    width: 100%;
-    padding: 19px 21px;
-    border-radius: 20px;
-  }
-
-  .restaurant-container {
-    flex-direction: column;
-  }
-
-  .card {
+  /*.card {
     padding-bottom: 0px;
     margin-bottom: 30px;
-  }
+  }*/
 
   .card img {
     width: 100%;
@@ -424,6 +403,8 @@ main p {
     border-radius: 10px;
     height: 100%;
     flex-grow: 1;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
   }
 
   .restaurant-container {
@@ -445,6 +426,11 @@ main p {
 
   .button {
     width: 250px;
+    height: auto;
+    width: 100%;
+    padding: 19px 21px;
+    border-radius: 20px;
+    
   }
 
   .card-title , .card-location {
@@ -458,6 +444,14 @@ main p {
 
   .card-content p {
     font-size: 14px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
   }
 }
 
@@ -507,5 +501,12 @@ main p {
 
 .heart-icon {
   font-size: 25px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: auto;
+  gap: 20px;
 }
 }
