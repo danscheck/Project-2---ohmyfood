@@ -421,6 +421,18 @@ main p {
   }
 }
 
+@media (min-width: 769px) and (max-width: 991px) {
+  .button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    gap: 20px;
+  }
+}
+
+
+
 /* LAPTOP VERSION */
 
 @media  (min-width: 992px) and (max-width: 2560px) {
