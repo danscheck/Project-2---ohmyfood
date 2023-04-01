@@ -357,7 +357,7 @@ main p {
 
 /*TABLET VERSION*/
 
-@media (min-width: 769px) {
+@media (min-width: 850px) {
   .card {
     width: 100%;
     background: white;
