@@ -357,7 +357,7 @@ main p {
 
 /*TABLET VERSION*/
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .card {
     width: 100%;
     background: white;
@@ -417,7 +417,7 @@ main p {
   }
 }
 
-@media (min-width: 769px) and (max-width: 991px) {
+/*@media (min-width: 769px) and (max-width: 991px) {
   .button-container {
     display: flex;
     justify-content: center;
@@ -425,7 +425,7 @@ main p {
     margin: auto;
     gap: 20px;
   }
-}
+}/*
 
 
 
