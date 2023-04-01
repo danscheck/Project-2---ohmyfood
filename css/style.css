@@ -279,12 +279,13 @@ main p {
 
 .card img {
   width: 100%;
-  height: auto;
+  height: 200px;
   object-fit: cover;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   display: block;
 }
+
 
 .card-content {
   text-align: left;
@@ -350,47 +351,12 @@ main p {
 
 .restaurant-list {
   background-color: rgb(241, 238, 238);
+
 }
 
 .heart-icon {
   justify-content: space-between;
-  padding: 10px;
-}
-
-
-
-
-
-/*@media (min-width: 768px) and (max-width: 992px) {
-    
-  }*/
-
-@media (max-width: 768px) {
-
-   
-
- 
-
-  
-
-  /*.card {
-    padding-bottom: 0px;
-    margin-bottom: 30px;
-  }*/
-
-  .card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-  }
-
-  .restaurant-list {
-    padding-top: 10px;
-  }
-
-  
+  padding: 1px;
 }
 
 /*TABLET VERSION*/
