@@ -314,7 +314,7 @@ main p {
   transition: all 0.3s;
   transition-timing-function: ease-in-out;
   font-size: 25px;
-  padding-right: -15px;
+  padding-left: 15px;
 }
 
 
